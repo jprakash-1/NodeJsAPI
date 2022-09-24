@@ -1,0 +1,27 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es2021": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "rules": {
+        "indent": ["error", 4],
+        "linebreak-style": ["error", "windows"],
+        "quotes": ["error", "double"],
+        "semi": ["error", "always"],
+        "prefer-arrow-callback": "error",
+        "curly": "error",
+        // "no-console": "warn",
+        "no-trailing-spaces": "error",
+        "no-unused-vars": "warn",
+        "no-undef": "warn",
+        "no-var": "error",
+        "prefer-const": "error",
+        "sort-imports": "error",
+        "eol-last": "error"
+    }
+}
